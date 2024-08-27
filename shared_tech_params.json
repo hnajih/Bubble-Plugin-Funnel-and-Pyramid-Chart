@@ -1,0 +1,12 @@
+{
+    "assets": {
+        "ABH": {
+            "name": "funnel",
+            "url": "//meta-q.cdn.bubble.io/f1724761821627x175187079075022720/fc3noor2%284%29.png"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 4,
+        "use_jquery": true
+    }
+}

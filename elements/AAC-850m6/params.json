@@ -1,0 +1,117 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": false,
+    "can_fit_width": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 240,
+        "width": 400
+    },
+    "display": "Funnel chart",
+    "fields": {
+        "AAG": {
+            "caption": "Series 1 data",
+            "doc": "first series data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "series_1_data",
+            "rank": 4,
+            "value": "number"
+        },
+        "AAH": {
+            "caption": "Series 1 name",
+            "doc": "first series name",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "series_1_name",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Title",
+            "default_val": "chart title",
+            "doc": "Text to display as a title of chart",
+            "editor": "DynamicValue",
+            "name": "title",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "Title alignment",
+            "default_val": "left",
+            "doc": " Alignment of title relative to chart area. ",
+            "editor": "Dropdown",
+            "name": "title_alignment",
+            "options": "left,center,right",
+            "rank": 1
+        },
+        "AAN": {
+            "caption": "xAxis values",
+            "doc": "labels which are displayed on the x-axis",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "xaxis_values",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAa": {
+            "caption": "No data text",
+            "default_val": "no data",
+            "doc": " The text to display when no-data is available. Defaults to undefined which displays nothing.",
+            "editor": "StaticText",
+            "in_style": true,
+            "name": "no_data_text",
+            "rank": 5
+        },
+        "AAb": {
+            "caption": "Dark mode",
+            "default_val": false,
+            "doc": "Enable dark mode",
+            "editor": "DynamicValue",
+            "name": "dark_mode",
+            "rank": 6,
+            "value": "boolean"
+        },
+        "AAc": {
+            "caption": "Tooltip enabled",
+            "default_val": true,
+            "doc": " Show tooltip when user hovers over chart area.",
+            "editor": "Checkbox",
+            "name": "tooltip_enabled",
+            "rank": 7
+        },
+        "AAf": {
+            "caption": "Downloading enabled",
+            "default_val": false,
+            "doc": " Display the toolbar / menu in the top right corner.",
+            "editor": "DynamicValue",
+            "name": "downloading_enabled",
+            "rank": 8,
+            "value": "boolean"
+        },
+        "ABL": {
+            "caption": "colors",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "colors",
+            "rank": 9,
+            "value": "text"
+        },
+        "ABM": {
+            "caption": "distributed",
+            "default_val": false,
+            "doc": "Turn this option to make the bars discrete. Each value indicates one bar per series.",
+            "editor": "DynamicValue",
+            "name": "distributed",
+            "rank": 10,
+            "value": "boolean"
+        }
+    },
+    "has_reset_fn": false,
+    "icon": "ion-android-funnel",
+    "property_applications": {
+        "Font": true,
+        "MinWidth": true,
+        "resizable": true
+    }
+}

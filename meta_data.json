@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "chart",
+        "1": "analytics",
+        "2": "data (things)",
+        "3": "productivity",
+        "4": "mobile"
+    },
+    "data_tracked": false,
+    "demo_page": "Demo https://apex-charts-79431.bubbleapps.io/version-test/funnel?debug_mode=true",
+    "description": "customizable funnal and pyramid charts with advanced features for your application\n\nApexCharts is a modern charting library that helps developers to create beautiful and interactive visualizations for web pages\n\nFunnel Chart ApexCharts\nPyramid Chart ApexCharts\n\nDemo https://apex-charts-79431.bubbleapps.io/version-test/funnel?debug_mode=true\n",
+    "image": "//meta-q.cdn.bubble.io/f1724761606209x477442582415206400/Animation%20-%201724757909643.gif",
+    "license": "open_source",
+    "name": "Funnel and Pyramid Chart"
+}
